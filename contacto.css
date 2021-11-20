@@ -1,0 +1,179 @@
+.footer,
+.main,
+.form {
+padding: 90px;
+}
+body {
+    background-size: 109px 109px, 109px 109px,100% 6px, 109px 109px, 109px
+    109px;
+    background-position: 54px 55px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
+    background-color: #F8F8F8;
+    }  
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1%;
+    grid-template-rows: 7% auto auto;
+    row-gap: 1%;
+    width: 96%;
+    max-width: 5000px;
+
+}
+.header,.footer {
+    grid-column:span 3;
+}
+.header,.footer {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+
+      
+.header {
+    color:rgb(255, 255, 255);
+    letter-spacing: 2px;
+    
+    background: #000000;
+    padding: 2%;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 20px;
+    /*box-shadow: 0 4px 25px -22px rgb(0, 0, 0);*/
+    text-align:right;
+}
+.header a{
+    color: #ffffff;
+    text-decoration: none;
+    font-family:roboto;
+    font-size: 30px;
+}
+.main{
+    grid-column: 1;
+    grid-row: span 2;
+    line-height : 18px;
+    text-align: left;
+    width: 148%;
+    height: 500px;
+    background-color: #000000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+.main p,h3,h1{
+    color: #ffffff;
+}
+.form{
+    background-color: #E3E0DE;
+    grid-column: 2;
+    grid-row: span 2;
+    line-height : 18px;
+    text-align: left;
+}
+.form-input {
+    margin-bottom: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+.form-input label {
+    display: block;
+    margin-top: 10px;
+    font-size: 18px;
+    color: var(--ctexto);
+    }
+.form-input input {/*Para que se vea como una linea bien bonis*/
+    width: 100%;
+    height: 28px;
+    outline:auto;
+    background: none;
+    outline-color: #C4C4C4;
+    background-color: #ffffff;
+    font-size: 15px;
+    }
+.form-input #message{
+    width: 100%;
+    height: 200px;
+    outline:auto;
+    background: none;
+    outline-color: #C4C4C4;
+    background-color: #ffffff;
+}
+.form-boton input {/* Para el boton de enviar */
+    background: #CCA354;
+    color:rgb(255, 255, 255);
+    padding: 10px 50px;
+    font-size: 20px;
+    display: block;
+    margin: auto;
+    border: none;
+    
+    }
+    /* Para que el boton cambie de color */
+.form-boton input:hover {
+    background:#BA6826;
+    transition: 0.5s;
+}
+.tratamiento{
+    margin-bottom: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+.tratamiento1{
+    width: 100%;
+    height: 28px;
+    outline:auto;
+    background: none;
+    outline-color: #C4C4C4;
+    background-color: #ffffff;
+    font-size: 15px;
+}
+.Expertos h1{
+    color: #0a0a0a;
+    text-align: right;
+}
+.Expertos {
+    margin-left: 200px;
+    
+}
+.experto{
+    width: 180%;
+    height: 400px;
+    background: #ffffff;
+    text-align: left;
+    line-height : 18px;
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-shadow: 0 4px 25px -22px rgb(0, 0, 0);
+}
+.experto h1,p{
+    color: #000000;
+    text-align: left;
+    line-height : 18px;
+    text-align: left;
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 10px;
+}
+.experto1{
+    float:right;
+    height: 400px;
+    width: 280px;
+    max-width: 100%;
+    max-height: 100%;
+    top:50%;
+    left:50%;
+}
+.mensajeCorrecto{
+    color: #000000;
+}
+.mensajeError{
+    color: #000000;
+}
+.imagen1{
+    margin-left: 20px;
+}
+.footer {
+    background: #000000;
+    padding: 1%;
+    color:  #ffffff;
+    text-align: center;
+    width: 102%;
+    height: 50px;
+}
